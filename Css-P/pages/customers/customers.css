@@ -1,0 +1,99 @@
+main {
+    padding-top: 2.2rem;
+    display: block;
+    background: linear-gradient(to right bottom,#70b3ff,#ffffff)
+
+}
+
+.testimonial {
+    margin-top: 6.25;
+    font-size: 2rem;
+}
+
+
+.testimonial__image-container img {
+    width: 50%;
+    min-width: 30rem;
+}
+
+#customer-1 {
+    /* padding: 10px 5px 0px 2px; */
+    text-align: right;
+    /* margin:10px 5px 0px 0px; */
+}
+
+.testimonial__info {
+    padding-top: 0px;
+    margin-top: 0px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 30%;
+    text-align: right;
+}
+
+img {
+    padding-right: 0px;
+    margin-right: 0;
+}
+
+#customer-2.testimonial {
+    text-align: left;
+}
+
+.testimonial__name {
+    font-size: 2.2rem;
+    color:white;
+    background-color: rgb(125, 135, 224);
+    border-radius: 5px;
+    padding: 0.8rem;
+    margin-top: 0.9rem;
+    box-shadow: 0px 2px 17px 3px  rgb(184, 184, 184);
+    padding-left:1.56rem;
+}
+
+.testimonial__subtitle {
+    font-size: 1.5rem;
+    margin: 0px;
+    color:white;
+    background-color: rgb(125, 135, 224);
+    border-radius: 5px;
+    margin-top: 0.9rem;
+    padding: 0.8rem;
+    box-shadow: 0px 2px 17px 3px  rgb(184, 184, 184);
+    padding-left:11.2rem;
+}
+
+.testimonial__text {
+    font-size: 1.3rem;
+    color:white;
+    background-color: rgb(125, 135, 224);
+    border-radius: 5px;
+    margin-top: 0.9rem;
+    padding: 0.8rem;
+    box-shadow: 0px 2px 17px 3px  rgb(184, 184, 184);
+    padding-left:11.2rem;
+    padding-bottom:6.25rem;
+}
+
+@media (max-width: 45rem) {
+    .testimonial__image-container img {
+        width: 100%;
+    }
+    #customer-2.testimonial {
+        text-align: right;
+    }
+    .testimonial__text {
+        font-size: 1rem;
+    }
+    .testimonial__subtitle {
+        font-size: 1rem;
+    }
+    .testimonial__name {
+        font-size: 1.8rem;
+    }
+    .testimonial__info {
+        display: block;
+    }
+}
+
+
